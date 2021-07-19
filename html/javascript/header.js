@@ -21,11 +21,11 @@ function link_print(x) {
 	var page_current = path.split("/").pop();
 	// Print NULL link.
 	if (page_current = page_url[x] + ".html" || page_url[x] == "null"){
-		document.write("<div id='nav_inactive'><p>" + page_title[x] + "</p></div>");
+		document.write("<div id='nav'><p>" + page_title[x] + "</p></div>");
 	}
 	// Print OK link.
 	else {
-		document.write("<div id='nav_active'><a href='" + page_url[x] + ".html'></a></div>");
+		document.write("<div id='nav'><a href='" + page_url[x] + ".html'></a></div>");
 	};
 };
 //-----------------------------------------------------------------------------------------------
@@ -35,5 +35,3 @@ var i;
 for (i = 0; i < page_title.length; i++) {
 	link_print(i);
 };
-
-document.write("</br></br>");

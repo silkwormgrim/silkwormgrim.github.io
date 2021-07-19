@@ -4,12 +4,44 @@ Author:		Dom
 Created:	00.00.2018 - 00:00
 Revised: 	00.00.2018 - 00:00
 -----------------------------------------------------------------------------------------------*/
-body {
+html{
 	background-color: #2E3436;
 	background-image: url("image/background.png"), url("image/background-rain.gif");
+}
+body {
+}
+.post {
+	background-color: RGB(24,24,32);
+}
+p {
+	color:white;
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size:medium;
+	margin-top:0em;
+	margin-bottom:0em;
+	padding-left:0px;
+}
+#header {
+	margin-top: 158px;
+	border: thin solid #303038;
+}
+#nav {
+	float:left;
+	background-color:RGB(0,0,0);
+	border: thin solid #303038;
+	padding-left:0.5em; padding-right:0.5em;
+}
+#center{
+	margin-top: 1em;
+	padding: 1em;
+	border: thin solid #303038;
+}
+
+
+/*
+body {
 	background-repeat: repeat-x, repeat;
 	background-color: RGB(24,24,32);
-	height: 100%;
 	margin-left: 0px;
 	margin-right: 0px;
 	color: white;
@@ -21,21 +53,15 @@ iframe {
 	overflow-y: visible;
 	color:white;
 }
-/*--- class ---*/
 .post {
 	background-color: RGB(24,24,32);
 	border: 1px solid black;
-}
-#header {
-	margin-top: 158px;
-	margin-bottom:1em;
 }
 #center {
 	height: 100%;
 }
 #footer {
 }
-/*--- id ---*/
 #nav_inactive {
 	float:left;
 	height:auto;
@@ -59,7 +85,6 @@ iframe {
 #nav_active:hover {
 	background-color:RGB(24,24,24);
 }
-/*---------------------------------------------------------------------------------------------*/
 p {
 	color:white;
 	font-family:"Verdana", Geneva, sans-serif;
@@ -119,7 +144,6 @@ a:hover {
 	margin-top:0em;
 	margin-bottom:0em;
 }
-/*---------------------------------------------------------------------------------------------*/
 table {
 	color:white;
 	font-family: "Verdana", Geneva, sans-serif;
@@ -137,4 +161,4 @@ ul {
 	color: white;
 	list-style: disclosure-closed;
 }
-/*---------------------------------------------------------------------------------------------*/
+*/
