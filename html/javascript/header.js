@@ -29,9 +29,17 @@ function link_print(x) {
 	};
 };
 //-----------------------------------------------------------------------------------------------
-document.write("<p>&#9830; Absinthe Interactive Software</p>");
-
+document.write("<div class='post' id='header'>");
+document.write("<p style='margin-left:1em;'>&#9830; Absinthe Interactive Software</p>");
 var i;
 for (i = 0; i < page_title.length; i++) {
 	link_print(i);
 };
+document.write("</div>");
+
+document.write("<div class='post' id='footer'>");
+		document.write("<audio controls id='audio' style='width:100%'><source src='html/audio/ada.ogg' type='audio/ogg'>Your browser does not support the audio element.</audio>");
+		var audio = document.getElementById("audio"); audio.volume = 0.2;
+document.write("</div>");
+//-----------------------------------------------------------------------------------------------
+//<script>var audio = document.getElementById("audio"); audio.volume = 0.2;</script>
