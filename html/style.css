@@ -9,7 +9,7 @@ body {
 	background-image: url("image/background.png"), url("image/background-rain.gif");
 	background-repeat: repeat-x, repeat;
 	background-color: RGB(24,24,32);
-	margin-top: 158px;
+	height: 100%;
 	margin-left: 0px;
 	margin-right: 0px;
 	color: white;
@@ -27,11 +27,11 @@ iframe {
 	border: 1px solid black;
 }
 #header {
+	margin-top: 158px;
 	margin-bottom:1em;
 }
 #center {
-	margin-left: 24px;
-	margin-right: 24px;
+	height: 100%;
 }
 #footer {
 }
