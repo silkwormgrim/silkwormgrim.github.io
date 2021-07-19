@@ -10,7 +10,7 @@ html{
 	background-repeat: repeat-x, repeat;
 }
 body {
-	background-color: RGB(24,24,32);
+	margin: 0px;
 }
 .post {
 	background-color: RGB(12,12,16);
@@ -32,6 +32,7 @@ p {
 	background-color:RGB(0,0,0);
 	border: thin solid #303038;
 	padding-left:0.5em; padding-right:0.5em;
+	padding-top: 0.25em; padding-bottom: 0.25em;
 }
 #nav:hover {
 	background-color:RGB(24,24,24);
@@ -40,10 +41,13 @@ p {
 	margin-top: 1em;
 	padding: 1em;
 	border: thin solid #303038;
+	min-height: 7em;
+	margin-left: 1em; margin-right: 1em;
 }
 #footer{
 	margin-top: 1em;
 	border: thin solid #303038;
+	margin-left: 1em; margin-right: 1em;
 }
 
 /*
