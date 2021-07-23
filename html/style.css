@@ -27,14 +27,21 @@ p {
 	margin-top: 158px;
 	border: thin solid #303038;
 }
-#nav {
+#nav_inactive {
 	float:left;
 	background-color:RGB(0,0,0);
 	border: thin solid #303038;
 	padding-left:0.5em; padding-right:0.5em;
 	padding-top: 0.25em; padding-bottom: 0.25em;
 }
-#nav:hover {
+#nav_active {
+	float:left;
+	background-color:RGB(0,0,0);
+	border: thin solid #303038;
+	padding-left:0.5em; padding-right:0.5em;
+	padding-top: 0.25em; padding-bottom: 0.25em;
+}
+#nav_active:hover {
 	background-color:RGB(24,24,24);
 }
 #center{
