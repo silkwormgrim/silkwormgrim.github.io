@@ -7,7 +7,7 @@ Revised: 	00/00/2018 - 00:00
 function generate_music_player() {
 	document.write("<center><p>" + music + "</p></center>");
 
-	document.write("<audio controls autoplay id='audio'>");
+	document.write("<audio controls autoplay loop id='audio'>");
 	document.write("<source src='html/audio/" + music + ".ogg' type='audio/ogg'>");
 	document.write("<p>Your browser does not support the audio element.</p>");	
 	document.write("</audio>");
