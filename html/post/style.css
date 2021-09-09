@@ -1,0 +1,84 @@
+/*-----------------------------------------------------------------------------------------------
+Title:		...
+Author:		Dom
+Created:	00.00.2018 - 00:00
+Revised: 	00.00.2018 - 00:00
+-----------------------------------------------------------------------------------------------*/
+p {
+	color:white;
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size:medium;
+	margin-top:0em;
+	margin-bottom:0em;
+	padding-left:0px;
+}
+h1 {
+	color:#c0c0c0;
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size:large;
+	font-weight:bold;
+	margin-top:0em;
+	margin-bottom:0em;
+	padding-left:2px;
+}
+h2 {
+	color:#c0c0c0;
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size:medium;
+	text-decoration:underline;
+	text-align:left;
+	margin-top:0em;
+	margin-bottom:0em;
+	padding-left:0px;
+}
+a:link {
+	color:#606070;
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size:medium;
+	text-decoration:none;
+	margin-top:0em;
+	margin-bottom:0em;
+}
+a:active {
+	color:#606070;
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size:medium;
+	text-decoration:none;
+	margin-top:0em;
+	margin-bottom:0em;
+}
+a:visited {
+	color:#606070;
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size:medium;
+	text-decoration:none;
+	margin-top:0em;
+	margin-bottom:0em;
+}
+a:hover {
+	color:#c0c0d0;
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size:medium;
+	text-decoration:none;
+	margin-top:0em;
+	margin-bottom:0em;
+}
+/*---------------------------------------------------------------------------------------------*/
+table {
+	color:white;
+	font-family: "Verdana", Geneva, sans-serif;
+	font-size:small;
+	width:100%;
+	margin-left:0;
+	margin-right:0;
+	text-align:left;
+}
+th {
+	border: 1px solid #404060;
+	padding: 5px;
+}
+ul {
+	color: white;
+	list-style: disclosure-closed;
+}
+/*---------------------------------------------------------------------------------------------*/
