@@ -11,14 +11,14 @@ body {
 }
 /*---------------------------------------------------------------------------------------------*/
 p {
-	color:white;
+	color: #e2e2e9;
 	font-family:"Verdana", Geneva, sans-serif;
 	font-size: medium;
 	margin-top: 0em;
 	margin-bottom: 0em;
 }
 h1 {
-	color: white;
+	color: #e2e2e9;
 	font-family:"Verdana", Geneva, sans-serif;
 	font-size: medium;
 	font-weight: bold;
@@ -33,12 +33,40 @@ h1 {
 #main_header {
 	margin-top: 158px;
 	border: thin solid #303038;
-	text-align: right;
-	padding-right: 1em;
+	text-align: center;
+	padding-right: 8px;
 }
 #main_header_navigator {
 	border-top: none;
+	overflow: auto;
 	border-bottom: none;
+/*
+	margin-bottom: 1em;
+*/
+}
+#main_header_navigator p {
+	font-size: 2em;
+	padding-left: 0.2em;
+	padding-right: 1em;
+	font-family: 'Times New Roman';
+	display: block;
+/*
+	font-weight: bold;
+	text-transform: uppercase;
+*/
+	color: #808080;
+	background-color: #0b0b0f;
+	border: 1px solid #e2e2e9;
+}
+#main_header_navigator a {
+	font-size: 2em;
+	padding-left: 0.2em;
+	padding-right: 1em;
+	font-family: 'Times New Roman';
+	text-decoration: none;
+	color: white;
+	border: 1px solid #e2e2e9;
+	display: block;
 }
 #main_header_music {
 	margin-bottom: 1em;
