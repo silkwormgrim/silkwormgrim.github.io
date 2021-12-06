@@ -25,14 +25,6 @@ h1 {
 	margin-top: 0em;
 	margin-bottom: 0em;
 }
-ul {
-	color: white;
-	list-style: none;
-}
-
-ul li:before {
-	content: "\2666 \0020";
-}
 /*---------------------------------------------------------------------------------------------*/
 .main {
 	background-color: RGB(12,12,16);
@@ -89,6 +81,15 @@ ul li:before {
 	float: left;
 	width: 25%;
 }
+#post_left ul {
+	color: white;
+	list-style: none;
+}
+
+#post_left ul li:before {
+	content: "\2666 \0020";
+}
+
 #post_right {
 	margin-left: 25%;
 	border-left: thin solid #303038;
