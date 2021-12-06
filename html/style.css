@@ -127,8 +127,6 @@ h1 {
 #post_right {
 	margin-left: 25%;
 	border-left: thin solid #303038;
-	border: 1px solid #e2e2e9;
-	display: block;
 }
 #post_footer{
 	min-height: 1em;
