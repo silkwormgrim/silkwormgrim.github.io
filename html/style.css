@@ -25,6 +25,14 @@ h1 {
 	margin-top: 0em;
 	margin-bottom: 0em;
 }
+ul {
+	color: white;
+	list-style: none;
+}
+
+ul li:before {
+	content: "\2666 \0020";
+}
 /*---------------------------------------------------------------------------------------------*/
 .main {
 	background-color: RGB(12,12,16);
@@ -33,6 +41,8 @@ h1 {
 #main_header {
 	margin-top: 158px;
 	border: thin solid #303038;
+	text-align: right;
+	padding-right: 1em;
 }
 #main_header_navigator {
 	border-top: none;
