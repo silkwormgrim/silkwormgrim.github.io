@@ -8,7 +8,7 @@ var page_title = [
 	"&#9830; home",
 	"&#9830; ambrosia",
 	"&#9830; minetest",
-	"&#9830; index",
+	"&#9830; final",
 ];
 var page_url = [
 	"index.html",
