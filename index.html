@@ -1,43 +1,115 @@
-<!-----------------------------------------------------------------------------------------------
-Title:		...
-Author:		Dom
-Created:	00/00/2018 - 00:00
-Revised: 	12/06/2021 - 12:34
------------------------------------------------------------------------------------------------->
+<!------------------------
+ created 00/00/0000 :: 00:00
+ revised 00/00/0000 :: 00:00
+------------------------->
 <!doctype html>
 <html lang="en">
+<!----------------------->
 <head>
 	<title>Home</title>
 		<meta name="description" content="index">
 		<meta name="author" content="Absinthe Interactive Software">
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="html/style.css">
+		<link rel="stylesheet" href="style_sheet.css">
+		<link rel="icon" type="image/png" href="html/image/favicon.png">
+</head>
+<!----------------------->
+<body>
+<div class="text_box" id="main_header">
+	<div class="text_box" style="border-left: none; border-right: none; border-top: none;">
+		<p>
+		<script type="text/javascript">
+			var music = "ada";
+			document.write(music);
+		</script>
+		</p>
+	</div>
+
+	<div class="text_box" style="border-left: none; border-right: none; border-top: none;">
+		<audio id="audio_player" loop preload="metadata">
+			<source src="file/audio/ada.ogg" type="audio/ogg"></source>
+			<p>Your browser does not support the audio element.</p>
+		</audio>
+
+		<div id="audio_player_play" onclick="audio_player.play();"></div>
+		<div id="audio_player_pause" onclick="audio_player.pause();"></div>
+
+		<div id="progress">
+			<div id="progress_bar"></div>
+		</div>
+	
+		<script src="music_player.js"></script>
+	</div>
+	<script src="navigator.js"></script>
+</div>
+<div class="text_box" id="main_center">
+	<center>
+	<table>
+		<tr>
+		<td style="width: 800px;">
+			<img src="file/image/zelda_3.png"
+				style="
+					width: 400px;
+				"
+			>
+
+			<img src="file/image/final_fantasy_6.jpg"
+				style="
+					width: 396px;
+				"
+			>
+		</td>
+		</tr>
+		<tr>
+		<td style="width: 800px;">
+			<img src="file/image/resident_evil_2.png"
+				style="
+					width: 800px;
+				"
+			>
+		</td>
+		</tr>
+	</table>
+	</center>
+</div>
+<div class="text_box" id="main_footer">
+	<script src="footer.js"></script>
+</div>
+</body>
+</html>
+
+
+<!------------------------
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Minetest</title>
+		<meta name="description" content="index">
+		<meta name="author" content="Absinthe Interactive Software">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="stylesheet.css">
 		<link rel="icon" type="image/png" href="html/image/favicon.png">
 </head>
 <body>
-	<div class="main" id="main_header"><p><script src="html/javascript/header.js"></script></p></div>
-	
-	<div class="main" id="main_header_navigator">
-		<ul style="display: inline; list-style-type: none;"><script src="html/javascript/navigator.js"></script></ul>
-	</div>
 
-	<div class="main" id="main_header_music">
-		<script>var music = "ada"</script>
-		<script src="html/javascript/music_player.js"></script>
-	</div>
-<!---------------------------------------------------------------------------------------------->
-	<div class="main" id="main_center">
-		<div id="post_center">
-			<div class="post">
-				<a href="html/image/reference_images/zelda3.png"><img src="html/image/reference_images/zelda3.png" alt="reference_image" style="width:400px;height:400px;"></a>
-				<a href="html/image/reference_images/finalfantasy6.jpg"><img src="html/image/reference_images/finalfantasy6.jpg" alt="reference_image" style="width:400px;height:400px;"></a>
-				</br>
-				<a href="html/image/reference_images/residentevil2.png"><img src="html/image/reference_images/residentevil2.png" alt="reference_image" style="width:960px;height:720px;"></a>
-			</div>
-		</div>
-	</div>
-<!---------------------------------------------------------------------------------------------->
-	<div class="main" id="main_footer"><center><p><script src="html/javascript/footer.js"></script></p></center></div>
+<div class="main" id="main_header">
+</div>
+<div class="main" id="main_center">
+	<p>
+		testing
+	</p>
+</div>
+<!--
+<div class="main" id="main_header_navigator">
+	<ul style="display: inline; list-style-type: none;"><script src="html/javascript/navigator.js"></script></ul>
+</div>
+<div class="main" id="main_header_music">
+	<script>var music = "leon_with_claire"</script>
+	<script src="html/javascript/music_player.js"></script>
+</div>
+
+
+<script src="footer.js"></script>
 </body>
 </html>
-<!---------------------------------------------------------------------------------------------->
+------------------------->

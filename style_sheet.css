@@ -1,0 +1,163 @@
+/*------------------------
+ created 00/00/0000 :: 00:00
+ revised 00/00/0000 :: 00:00
+--------------------------
+font-family:"Verdana", Geneva, sans-serif;
+------------------------*/
+html{
+	background-color: RGB(24,24,32);
+/*	background-image: url("background.png"), url("background-rain.gif");*/
+	background-image: url("file/image/background.png");
+	background-repeat: repeat-x, repeat;
+}
+body {
+	margin: 0px;
+}
+#audio {
+	display: block;
+	width: 100%;
+	margin: 0px;
+}
+#audio_player {
+	background-color:black;
+}
+#audio_player_play {
+	width: 80px;
+	height: 80px;
+	background-image: url("file/image/play.png");
+	display: inline-block;
+}
+#audio_player_pause {
+	width:80px;
+	height:80px;
+	background-image: url("file/image/pause.png");
+	display: inline-block;
+}
+#progress {
+	width:80%;
+	background-color:black;
+	display: inline-block;
+	margin-bottom:1.5em;
+}
+#progress_bar {
+	width:1%;
+	height:30px;
+	background-color:grey;
+}
+p {
+	color: #e2e2e9;
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size: medium;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+#code {
+	background-color: black;
+	color: white;
+	width: 80%;
+	margin-left: 1em;
+	font-family: "Lucida Console";
+}
+#code2 {
+	background-color: white;
+	width: 80%;
+	margin-left: 1em;
+	overflow: auto;
+	font-family: "Lucida Console";
+}
+#output {
+	background-color: black;
+	color: green;
+	width: 80%;
+	margin-left: 1em;
+	font-family: "Lucida Console";
+}
+h1 {
+	color: #e2e2e9;
+	font-size: medium;
+	font-weight: bold;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+.text_box {
+	background-color: RGB(12,12,16);
+	border: 1px solid #303038;
+}
+#main_header {
+	margin-top: 158px;
+	border: thin solid #303038;
+	text-align: center;
+	padding-right: 8px;
+}
+#main_header_music_player {
+	border: thin solid #303038;
+	border-top: none;
+	text-align: center;
+	padding-right: 8px;
+}
+#main_center {
+	min-height: 21em;
+	border-top: none;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#main_center_left {
+	min-height: 21em;
+	float: left;
+	width: 24.8%;
+	border-top: none;
+	font-family: "Lucida Console";
+}
+#main_center_right {
+	min-height: 21em;
+	margin-left: 25%;
+	width: 74.7%;
+	border-top: none;
+}
+#main_footer {
+	border-left: none; border-right: none;
+	margin-top: 1em;
+	width:100%;
+}
+/*----------------------*/
+#main_header ul {
+	color: white;
+}
+#main_header li {
+	display: inline;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-right: 1em;
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size: 2em;
+	border: 2px solid #e2e2e9;
+	color: #808080;
+}
+#main_header a {
+	color: white;
+	text-decoration: none;
+}
+#main_header a:hover {
+	text-decoration: none;
+}
+#main_center_left a {
+	font-size: 32px;
+	color: white;
+	padding-left: 1em;
+}
+#main_center_left ul {
+	color: white;
+	list-style-type: square;
+}
+#main_center_left li {
+	font-size: 32px;
+	color: white;
+}
+#main_center_right p {
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+#main_center_right h1 {
+	padding -top: 1em;
+	margin-bottom: 1em;
+}
