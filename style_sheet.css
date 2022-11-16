@@ -42,7 +42,10 @@ body {
 #progress_bar {
 	width:1%;
 	height:30px;
-	background-color:grey;
+	background-color:black;
+	outline-style: solid;
+	outline-color: purple;
+	outline-width: 1px;
 }
 p {
 	color: #e2e2e9;

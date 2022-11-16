@@ -5,8 +5,8 @@
 var pages = [
 	"home","index.html",
 	"ambrosia","ambrosia.html",
-	"minetest","null",
-	"final","null"
+	"minetest","minetest.html",
+	"final","final.html"
 ];
 
 function generate_navigation() {
