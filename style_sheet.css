@@ -5,13 +5,31 @@
 font-family:"Verdana", Geneva, sans-serif;
 ------------------------*/
 html{
-	background-color: RGB(24,24,32);
+	background-color: RGB(12,12,16);
+/*	background-color: RGB(24,24,32);*/
 /*	background-image: url("background.png"), url("background-rain.gif");*/
 	background-image: url("file/image/background.png");
 	background-repeat: repeat-x, repeat;
 }
 body {
 	margin: 0px;
+}
+.navigator {
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin-right: 1em;
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size: 2em;
+	border: 2px solid #e2e2e9;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+}
+#navigator_active {
+	color: #808080;
+}
+#navigator_inactive {
+	color: white;
 }
 #audio {
 	display: block;
@@ -105,55 +123,28 @@ h1 {
 	padding-bottom: 1em;
 }
 #main_center_left {
-	min-height: 21em;
+	border-top: 1px solid #303038;
+	margin-top: 2em;
 	float: left;
-	width: 24.8%;
-	border-top: none;
+	width: 26.1%;
+	padding-top: 0.5em;
+	overflow-wrap: break-word;
 	font-family: "Lucida Console";
 }
 #main_center_right {
+	margin-top: 2em;
 	min-height: 21em;
-	margin-left: 25%;
-	width: 74.7%;
-	border-top: none;
-}
-#main_footer {
-	border-left: none; border-right: none;
-	margin-top: 1em;
-	width:100%;
-}
-/*----------------------*/
-#main_header ul {
-	color: white;
-}
-#main_header li {
-	display: inline;
-	padding-left: 1em;
-	padding-right: 1em;
-	margin-right: 1em;
-	font-family:"Verdana", Geneva, sans-serif;
-	font-size: 2em;
-	border: 2px solid #e2e2e9;
-	color: #808080;
-}
-#main_header a {
-	color: white;
-	text-decoration: none;
-}
-#main_header a:hover {
-	text-decoration: none;
-}
-#main_center_left a {
-	font-size: 32px;
-	color: white;
-	padding-left: 1em;
+	margin-left: 26.2%;
+	width: 73.6%;
 }
 #main_center_left ul {
 	color: white;
 	list-style-type: square;
+	font-size: 32px;
+	margin-top: 0px;
 }
 #main_center_left li {
-	font-size: 32px;
+	margin-left: 0px;
 	color: white;
 }
 #main_center_right p {
@@ -161,6 +152,27 @@ h1 {
 	margin-left: 1em;
 }
 #main_center_right h1 {
-	padding -top: 1em;
-	margin-bottom: 1em;
+	font-family: "Lucida Console";
+	font-size: 32px;
+	margin-left: 0.5em;
+}
+#main_footer {
+	border-left: none; border-right: none;
+	margin-top: 1em;
+	width:100%;
+}
+/*----------------------*/
+#main_header a {
+	color: white;
+	text-decoration: none;
+}
+#main_center_left a {
+	color: white;
+}
+#main_header a:hover {
+	text-decoration: none;
+}
+#main_center_right h1 {
+	padding-top: 0.5em;
+	margin-bottom: 0.5em;
 }
