@@ -1,116 +1,73 @@
-<!------------------------
- created 00/00/0000 :: 00:00
- revised 00/00/0000 :: 00:00
-------------------------->
+<!--──────────────────────────
+◦ INDEX PAGE
+──────────────────────────────
+<script>var music = "leon_with_claire"</script>
+<script src="html/javascript/music_player.js"></script>
+────────────────────────────-->
 <!doctype html>
 <html lang="en">
-<!----------------------->
+
 <head>
 	<title>Home</title>
 		<meta name="description" content="index">
 		<meta name="author" content="Absinthe Interactive Software">
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style_sheet.css">
-		<link rel="icon" type="image/png" href="html/image/favicon.png">
+		<link rel="icon" type="image/png" href="file/image/favicon.png">
 </head>
-<!----------------------->
-<body>
-<div class="text_box" id="main_header">
-	<div class="text_box" style="border-left: none; border-right: none; border-top: none;">
-		<p>
-		<script type="text/javascript">
-			var music = "ada";
-			document.write(music);
-		</script>
-		</p>
-	</div>
 
-	<div class="text_box" style="border-left: none; border-right: none; border-top: none;">
+<body>
+
+<div class="text_box" id="main_header">
+<table style="width: 100%;">
+	<tr>
+		<td><script src="navigator.js"></script></td>
+	</tr>
+</table>
+
+<table>
+	<caption ><p><script type="text/javascript">
+		var music = "ada";
+		document.write(music);
+	</script></p></caption>
+
+	<tr>
+	<td>
+		<div id="audio_player_play" onclick="audio_player.play();"></div>
+	</td>
+	<td>
+		<div id="audio_player_pause" onclick="audio_player.pause();"></div>
+	</td>
+
+	<td style="width: 100%;">
 		<audio id="audio_player" controls loop preload="metadata" style="width:100%">
 			<source src="file/audio/ada.ogg" type="audio/ogg"></source>
 			<p>Your browser does not support the audio element.</p>
 		</audio>
-<!--
-		<div id="audio_player_play" onclick="audio_player.play();"></div>
-		<div id="audio_player_pause" onclick="audio_player.pause();"></div>
-
-		<div id="progress">
-			<div id="progress_bar"></div>
-		</div>
-	
-		<script src="music_player.js"></script>
--->
-	</div>
-	<script src="navigator.js"></script>
-</div>
-<div class="text_box" id="main_center">
-	<center>
-	<table>
-		<tr>
-		<td style="width: 800px;">
-			<img src="file/image/zelda_3.png"
-				style="
-					width: 400px;
-				"
-			>
-
-			<img src="file/image/final_fantasy_6.jpg"
-				style="
-					width: 396px;
-				"
-			>
-		</td>
-		</tr>
-		<tr>
-		<td style="width: 800px;">
-			<img src="file/image/resident_evil_2.png"
-				style="
-					width: 800px;
-				"
-			>
-		</td>
-		</tr>
+	</td>
+	</tr>
 	</table>
-	</center>
 </div>
+
+<div class="text_box" id="main_center">
+<center><table>
+	<tr>
+		<td style="width: 800px;">
+			<img src="file/image/zelda_3.png" style="width: 400px;">
+			<img src="file/image/final_fantasy_6.jpg" style="width: 396px;">
+		</td>
+	</tr>
+
+	<tr>
+	<td style="width: 800px;">
+		<img src="file/image/resident_evil_2.png" style="width: 800px;">
+	</td>
+	</tr>
+</table></center>
+</div>
+
 <div class="text_box" id="main_footer">
 	<script src="footer.js"></script>
 </div>
 </body>
 </html>
-
-
-<!------------------------
-<!doctype html>
-<html lang="en">
-<head>
-	<title>Minetest</title>
-		<meta name="description" content="index">
-		<meta name="author" content="Absinthe Interactive Software">
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="stylesheet.css">
-		<link rel="icon" type="image/png" href="html/image/favicon.png">
-</head>
-<body>
-
-<div class="main" id="main_header">
-</div>
-<div class="main" id="main_center">
-	<p>
-		testing
-	</p>
-</div>
-<!--
-<div class="main" id="main_header_navigator">
-	<ul style="display: inline; list-style-type: none;"><script src="html/javascript/navigator.js"></script></ul>
-</div>
-<div class="main" id="main_header_music">
-	<script>var music = "leon_with_claire"</script>
-	<script src="html/javascript/music_player.js"></script>
-</div>
-
-
-<script src="footer.js"></script>
-</body>
-</html>
-------------------------->

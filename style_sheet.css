@@ -1,19 +1,103 @@
-/*------------------------
- created 00/00/0000 :: 00:00
- revised 00/00/0000 :: 00:00
---------------------------
+/*────────────────────────────
+◦ STYLE SHEET
+──────────────────────────────
 font-family:"Verdana", Geneva, sans-serif;
-------------------------*/
+background-color: RGB(24,24,32);
+border-top: none;
+background-image: url("file/image/background.png");
+background-image: url("file/image/background.png"), url("file/image/background-rain.gif");
+────────────────────────────*/
 html{
-	background-color: RGB(12,12,16);
-/*	background-color: RGB(24,24,32);*/
-/*	background-image: url("background.png"), url("background-rain.gif");*/
+	background-color: RGB(24,24,32);
 	background-image: url("file/image/background.png");
 	background-repeat: repeat-x, repeat;
 }
 body {
 	margin: 0px;
 }
+.text_box {
+	background-color: RGB(12,12,16);
+	border: 1px solid #303038;
+}
+#main_header {
+	margin-top: 158px;
+	border: thin solid #303038;
+	text-align: center;
+	padding-right: 8px;
+}
+#main_center {
+	min-height: 21em;
+	margin-top: 4px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#main_header table{
+	border: thin solid #303038;
+}
+#main_header table td{
+}
+
+#main_header_music_player {
+	border: thin solid #303038;
+	border-top: none;
+	text-align: center;
+	padding-right: 8px;
+}
+#main_center_left {
+	border-top: 1px solid #303038;
+	margin-top: 2em;
+	float: left;
+	width: 26.1%;
+	padding-top: 0.5em;
+	overflow-wrap: break-word;
+	font-family: "Lucida Console";
+}
+#main_center_right {
+	margin-top: 2em;
+	min-height: 21em;
+	margin-left: 26.2%;
+	width: 73.6%;
+}
+#main_center_left ul {
+	color: white;
+	list-style-type: square;
+	font-size: 32px;
+	margin-top: 0px;
+}
+#main_center_left li {
+	margin-left: 0px;
+	color: white;
+}
+#main_center_right p {
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+#main_center_right h1 {
+	font-family: "Lucida Console";
+	font-size: 32px;
+	margin-left: 0.5em;
+}
+#main_footer {
+	border-left: none; border-right: none;
+	margin-top: 1em;
+	width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .navigator {
 	display: inline-block;
 	padding-left: 0.5em;
@@ -99,67 +183,6 @@ h1 {
 	font-weight: bold;
 	margin-top: 0em;
 	margin-bottom: 0em;
-}
-.text_box {
-	background-color: RGB(12,12,16);
-	border: 1px solid #303038;
-}
-#main_header {
-	margin-top: 158px;
-	border: thin solid #303038;
-	text-align: center;
-	padding-right: 8px;
-}
-#main_header_music_player {
-	border: thin solid #303038;
-	border-top: none;
-	text-align: center;
-	padding-right: 8px;
-}
-#main_center {
-	min-height: 21em;
-	border-top: none;
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-#main_center_left {
-	border-top: 1px solid #303038;
-	margin-top: 2em;
-	float: left;
-	width: 26.1%;
-	padding-top: 0.5em;
-	overflow-wrap: break-word;
-	font-family: "Lucida Console";
-}
-#main_center_right {
-	margin-top: 2em;
-	min-height: 21em;
-	margin-left: 26.2%;
-	width: 73.6%;
-}
-#main_center_left ul {
-	color: white;
-	list-style-type: square;
-	font-size: 32px;
-	margin-top: 0px;
-}
-#main_center_left li {
-	margin-left: 0px;
-	color: white;
-}
-#main_center_right p {
-	margin-bottom: 1em;
-	margin-left: 1em;
-}
-#main_center_right h1 {
-	font-family: "Lucida Console";
-	font-size: 32px;
-	margin-left: 0.5em;
-}
-#main_footer {
-	border-left: none; border-right: none;
-	margin-top: 1em;
-	width:100%;
 }
 /*----------------------*/
 #main_header a {
