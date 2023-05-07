@@ -17,6 +17,7 @@ function navigator() {
 		"final","final.html"
 	];
 	var symbol = "&#9830; "
+	var symbol2 = "◊"
 	var path = window.location.pathname;
 	var page_current = path.split("/").pop();
 	var loc = window.location.pathname;
@@ -31,7 +32,7 @@ function navigator() {
 		if (page_current == pages[i*2+1] || pages[i*2+1] == "null"){
 			document.write(
 			"<div class='navigator' id='navigator_inactive'>",
-			symbol," ",pages[i*2]," ",symbol,
+			symbol2," ",pages[i*2]," ",symbol2,
 			"</div>"
 			);
 		}
@@ -40,7 +41,7 @@ function navigator() {
 			document.write(
 			"<a href='",dir,"/",pages[i*2+1],"'>",
 			"<div class='navigator' id='navigator_active'>",
-			symbol," ",pages[i*2]," ",symbol,
+			symbol2," ",pages[i*2]," ",symbol2,
 			"</div>",
 			"</a>"
 			);
