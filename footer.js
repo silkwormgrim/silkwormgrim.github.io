@@ -1,12 +1,11 @@
-/*------------------------
- 
-------------------------*/
-/*----------------------*/
+// ◊ FOOTER
+// ──────────────────────────
+
 var year = new Date().getFullYear();
 
 document.write(
 	"<center><p>",
-	"&#9830; 2016-",year," ",
-	"&#9830; Absinthe Interactive Software",
+	"Absinthe Interactive Software ",
+	"&#9830; 2016 &#9830; ",year," &#9830;",
 	"</p></center>"
 );
