@@ -48,15 +48,50 @@
 <div class="text_box" id="body_full">
 	<div id="body_left">
 		<ul>
-		<li><a href="#0">make.sh</a></li>
+		<li><a href="#0">make.bat</a></li>
 		</ul>
 	</div>
 
 	<div id="body_right">
-		<a name="0"></a><h1>make.sh</h1>
-		<p id="text_code">
-		...
-		</p>
+		<a name="0"></a><h1>make.bat</h1>
+		<pre><p id="text_code">
+:: ◊ MAKE_FILE
+:: ────────────────────────────
+@ECHO OFF
+set /p user_input=[]: 
+
+IF NOT DEFINED user_input (SET user_input=make)
+if %user_input% == make (call :make)
+if %user_input% == r (call :run)
+if %user_input% == c (call :clean)
+
+PAUSE
+EXIT /B %ERRORLEVEL%
+
+:clean
+CD %~dp0
+DEL main.exe *.o
+EXIT /B 0
+
+:run
+CD %~dp0
+IF EXIST main.exe (CALL main.exe)
+EXIT /B 0
+
+:make
+CD %~dp0
+
+SET INCLUDE=-IC:\mingw64\sdl\include
+SET LINKDIR=-LC:\mingw64\sdl\lib
+
+g++ -Wall -c main.cpp %INCLUDE% 
+g++ *.o -o main.exe %LINKDIR% -lmingw32 -lSDL2main -lSDL2
+IF EXIST main.o (CALL rm *.o)
+
+call :run
+EXIT /B 0
+		</p></pre>
+		<img src="file/image/screenshot_ambrosia_1.png">
 	</div>
 </div>
 
