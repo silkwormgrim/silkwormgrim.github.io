@@ -1,0 +1,182 @@
+/* ◊ STYLE_SHEET */
+/* ────────────────────────── */
+html{
+	background-color: RGB(24,24,32);
+	background-image: url("file/image/background.png");
+	background-repeat: repeat-x, repeat;
+}
+
+body {
+	margin: 0px;
+}
+
+/* HEADERS */
+
+#header {
+	margin-top: 158px;
+}
+
+#footer {
+	border-left: none; border-right: none;
+	width:100%;
+}
+
+#header_nav {
+	text-align: center;
+}
+
+#header_player_text {
+	border-bottom: none;
+}
+
+#header_player_audio {
+	background-color: #151515;
+	border-top: none;
+}
+#header_player_audio table {
+	width: 100%;
+}
+
+/* BODY */
+
+#header_body {
+	border-bottom: none;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+#body_full {
+	margin-bottom: 1em;
+}
+
+#body_left {
+	float: left;
+	width: 26.0%;
+	overflow-wrap: break-word;
+	font-family: "Lucida Console";
+}
+
+#body_right {
+	margin-left: 26.2%;
+	width: 73.6%;
+}
+
+/* TEXT */
+
+p {
+	color: #e2e2e9;
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size: medium;
+}
+
+h1 {
+	color: #e2e2e9;
+	font-family:"Verdana", Geneva, sans-serif;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+#header_body h1 {
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+
+#header_player_text p {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	text-align: center;
+}
+
+#body_left ul {
+	color: white;
+	list-style-type: square;
+	font-size: 32px;
+}
+
+#body_left a {
+	color: white;
+}
+
+#body_right p {
+	margin-left: 1em;
+}
+
+#body_right h1 {
+	margin-left: 0.25em;
+}
+
+/* TEXT_BOX */
+.text_box {
+	background-color: RGB(12,12,16);
+	border: 1px solid #303038;
+}
+
+#text_code {
+	background-color: black;
+	color: white;
+	width: 80%;
+	overflow-wrap: break-word;
+	font-family: "Lucida Console";
+}
+
+#text_result {
+	background-color: black;
+	color: green;
+	width: 80%;
+	overflow-wrap: break-word;
+	font-family: "Lucida Console";
+}
+
+/* NAVIGATOR */
+
+.navigator {
+	display: inline-block;
+	padding-left: 0.75em;
+	type: uppercase;
+	padding-right: 0.75em;
+	margin-right: 1em;
+	border: 2px solid #e2e2e9;
+	margin-top: 0.10em;
+	margin-bottom: 0.10em;
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size: 2em;
+}
+
+#navigator_active {
+	color: white;
+}
+
+#navigator_inactive {
+	color: #808080;
+}
+
+#audio {
+	display: block;
+	width: 100%;
+	margin: 0px;
+}
+
+#audio_player {
+	background-color:black;
+}
+
+#audio_player_play {
+	width: 80px;
+	height: 80px;
+	background-image: url("file/image/play.png");
+	display: inline-block;
+}
+
+#audio_player_pause {
+	width:80px;
+	height:80px;
+	background-image: url("file/image/pause.png");
+	display: inline-block;
+}
+
+/* ADDITIONAL */
+
+#text_code iframe {
+	width: 100%;
+	height: 300px;
+}
